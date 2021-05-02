@@ -13,7 +13,7 @@ class _DiceState extends State<Dice> {
 
   void random_select() {
     setState(() {
-      number = Random().nextInt(5);
+      number = Random().nextInt(6);
     });
   }
 
